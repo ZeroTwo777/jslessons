@@ -1,0 +1,27 @@
+<html>
+	<body>
+	    <script>
+		function tobi() 
+		{
+		var bullets = document.getElementById("bullets").value;
+		var dragons = document.getElementById("dragons").value;
+		var killdragons = dragons*3;
+		
+		if(bullets >= dragons*3)
+		{
+		alert('you win!');
+		}
+		else
+		{
+		alert('you lox!');
+		}
+		
+		}
+		
+		</script>
+		<input type="text" id="bullets">
+		<input type="text" id="dragons">
+		<button onclick="tobi()">check!</button>
+		
+	</body>
+</html>
